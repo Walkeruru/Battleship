@@ -1,0 +1,43 @@
+.container>div{
+    border: 1px solid white;
+}
+.computadora>div{
+    border: 1px solid #E26D5A
+}
+.container,.computadora{
+    display: grid;
+    grid-template-columns: repeat(10,63px);
+    grid-template-rows: repeat(10,40px);
+    width: 600px;
+    height: 400px;
+}
+.BARCO{
+    background-color: rgb(100, 240, 100);
+    border: 2px solid white;
+    border-radius: 8em;
+    width: 60px;
+    height: 40px;
+}
+.x{
+    background-color: #63768D
+}
+.hit{
+    background-color: red;
+}
+.fail{
+    background-color: grey;
+}
+.boats{
+    display: flex;
+    gap: 20px   ;
+}
+img{
+    height: 200px;
+}
+body{
+    background-color: #0F0F0F;
+}
+#boton{
+    background-color: #FBFBFB;
+    color: #0F0F0F;
+}
